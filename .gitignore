@@ -1,0 +1,5 @@
+# Generated third-party compatibility fixture; prepare it locally before testing.
+/native-filter-control.fixture.js
+
+# Optional downloaded bundle for offline fixture preparation.
+/native-filter-bundle.local.js
