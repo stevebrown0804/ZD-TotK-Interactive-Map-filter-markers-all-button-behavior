@@ -4,9 +4,11 @@ A Tampermonkey userscript that changes the **All** button in **Filter Markers** 
 
 ## Behavior
 
-The map's original All button shows every marker category without selecting the individual filters. Clicking Well afterward switches to showing only wells.
+[Editor's note: Insanely robotic-sounding speech courtesy of Codex. -SB]
 
-With this script, All activates and underlines every individual marker filter. Clicking Well afterward hides wells while the other categories stay selected. Filters in collapsed groups are included; None keeps its existing behavior.
+The map's original All button shows every marker category without selecting the individual filters. eg. Clicking All followed by Well switches to showing only wells, rather than showing all icons then disabling wells.
+
+With this script, All activates and underlines every individual marker filter. eg. Clicking All then Well hides wells while the other categories stay selected. Filters in collapsed groups are included; None keeps its existing behavior.
 
 The script adds no panel, settings button, or other controls. Disabling it in Tampermonkey and reloading the map restores the original button behavior.
 
